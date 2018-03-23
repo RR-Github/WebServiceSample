@@ -1,0 +1,172 @@
+.ui-multiselect {
+    padding-bottom: 2px;
+    padding-left: 4px;
+    padding-right: 0;
+    padding-top: 2px;
+    text-align: left;
+}
+.ui-multiselect span.ui-icon {
+    float: right;
+}
+.ui-multiselect-single .ui-multiselect-checkboxes input {
+    left: -9999px;
+    position: absolute !important;
+    top: auto !important;
+}
+.ui-multiselect-single .ui-multiselect-checkboxes label {
+    padding-bottom: 5px !important;
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+    padding-top: 5px !important;
+}
+.ui-multiselect-header {
+    margin-bottom: 3px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+    padding-right: 0;
+    padding-top: 3px;
+	color: #5e3501;
+}
+.ui-multiselect-header ul {
+    font-size: 0.6em;
+}
+.ui-multiselect-header ul li {
+    float: left;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 10px;
+    padding-top: 0;
+}
+.ui-multiselect-header a {
+    -moz-text-blink: none;
+    -moz-text-decoration-color: -moz-use-text-color;
+    -moz-text-decoration-line: none;
+    -moz-text-decoration-style: solid;
+}
+.ui-multiselect-header a:hover {
+    -moz-text-blink: none;
+    -moz-text-decoration-color: -moz-use-text-color;
+    -moz-text-decoration-line: underline;
+    -moz-text-decoration-style: solid;
+}
+.ui-multiselect-header span.ui-icon {
+    float: left;
+}
+.ui-multiselect-header li.ui-multiselect-close {
+    float: right;
+    padding-right: 0;
+    text-align: right;
+}
+.ui-multiselect-menu {
+    display: none;
+    padding-bottom: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 3px;
+    position: absolute;
+    text-align: left;
+    z-index: 10000;
+}
+.ui-multiselect-checkboxes {
+    overflow-y: auto;
+    position: relative;
+}
+.ui-multiselect-checkboxes label {
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-bottom-color: transparent;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color-ltr-source: physical;
+    border-left-color-rtl-source: physical;
+    border-left-color-value: transparent;
+    border-left-style-ltr-source: physical;
+    border-left-style-rtl-source: physical;
+    border-left-style-value: solid;
+    border-left-width-ltr-source: physical;
+    border-left-width-rtl-source: physical;
+    border-left-width-value: 1px;
+    border-right-color-ltr-source: physical;
+    border-right-color-rtl-source: physical;
+    border-right-color-value: transparent;
+    border-right-style-ltr-source: physical;
+    border-right-style-rtl-source: physical;
+    border-right-style-value: solid;
+    border-right-width-ltr-source: physical;
+    border-right-width-rtl-source: physical;
+    border-right-width-value: 1px;
+    border-top-color: transparent;
+    border-top-style: solid;
+    border-top-width: 1px;
+    cursor: default;
+    display: block;
+    padding-bottom: 3px;
+    padding-left: 1px;
+    padding-right: 1px;
+    padding-top: 3px;
+}
+.ui-multiselect-checkboxes label input {
+    position: relative;
+    top: 1px;
+}
+.ui-multiselect-checkboxes li {
+    clear: both;
+    font-size: 0.6em;
+    padding-right: 3px;
+}
+.ui-multiselect-checkboxes li.ui-multiselect-optgroup-label {
+    border-bottom-color: -moz-use-text-color;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    font-weight: bold;
+    text-align: center;
+}
+.ui-multiselect-checkboxes li.ui-multiselect-optgroup-label a {
+    -moz-text-blink: none;
+    -moz-text-decoration-color: -moz-use-text-color;
+    -moz-text-decoration-line: none;
+    -moz-text-decoration-style: solid;
+    display: block;
+    margin-bottom: 1px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 1px;
+    padding-bottom: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 3px;
+}
+* html .ui-multiselect-checkboxes label {
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-bottom-color: -moz-use-text-color;
+    border-bottom-style: none;
+    border-bottom-width: medium;
+    border-left-color-ltr-source: physical;
+    border-left-color-rtl-source: physical;
+    border-left-color-value: -moz-use-text-color;
+    border-left-style-ltr-source: physical;
+    border-left-style-rtl-source: physical;
+    border-left-style-value: none;
+    border-left-width-ltr-source: physical;
+    border-left-width-rtl-source: physical;
+    border-left-width-value: medium;
+    border-right-color-ltr-source: physical;
+    border-right-color-rtl-source: physical;
+    border-right-color-value: -moz-use-text-color;
+    border-right-style-ltr-source: physical;
+    border-right-style-rtl-source: physical;
+    border-right-style-value: none;
+    border-right-width-ltr-source: physical;
+    border-right-width-rtl-source: physical;
+    border-right-width-value: medium;
+    border-top-color: -moz-use-text-color;
+    border-top-style: none;
+    border-top-width: medium;
+}
